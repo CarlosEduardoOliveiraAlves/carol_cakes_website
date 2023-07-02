@@ -1,0 +1,196 @@
+/* Gerais */
+
+a {
+    cursor: pointer;
+    color: black;
+}
+
+a:hover {
+    color: gray;
+}
+
+/* SOBRE A CAROL CAKES */
+#sobre {
+    background-color: #f9f9f9;
+}
+
+/* LOCALIZACAO */
+
+#localizacao {
+    background-color: #f9f9f9;
+}
+
+/* TITULOS E SUBTITULOS*/
+/*Personalizar os titulos*/
+.main-tittle {
+    color: #e7bad5;
+    margin: 1rem 0 1.5rem 0;
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+/*Personalizar os subtitulos*/
+.about-title {
+    font-size: 1.0625rem;
+    color: #e7bad5;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+/* LOGIN */
+/*Centralizar o formulario*/
+#body_login {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* - */
+#login .container {
+    max-width: 37rem;
+    width: 100%;
+    margin-bottom: 8rem;
+}
+/*Borda do form de login*/
+#login .container {
+    border: 1px #e7bad5 solid;
+    border-radius: 10px 0 10px 0;
+    padding: 20px;
+}
+/*Header deslogado*/
+#header_deslogado {
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+/*Personalizar os botões da pág de login*/
+.btn_pag_login_cadastrar {
+    text-decoration: none;
+    border: 2px rgb(255, 255, 255) solid;
+    padding: 12px 11px 12px 11px;
+    border-radius: 50px;
+    color: black;
+    background-color: #f9f9f9;
+}
+
+.btn_pag_login_entrar {
+    text-decoration: none;
+    border: 2px rgb(255, 255, 255) solid;
+    padding: 10px 35px 10px 35px;
+    border-radius: 50px;
+    background-color: #f9f9f9;
+}
+
+.btn_pag_login_entrar:hover {
+    border-color: #e7bad5;
+}
+
+.btn_pag_login_cadastrar:hover {
+    border-color: #e7bad5;
+}
+
+/*Mensagem de erro*/
+#mensagem_erro_login {
+    position: absolute;
+    top: 110px;
+    right: 5px;
+}
+
+/* CADASTRO */
+
+/*Centralizando o form*/
+#cadastro {
+    margin-top: 230px;
+}
+
+/*Borda do form de cadastro*/
+#cadastro .container {
+    border: 1px #e7bad5 solid;
+    border-radius: 10px 0 10px 0;
+    padding: 20px;
+}
+/* Ajustando largura do form */
+#cadastro .container {
+    max-width: 37rem;
+}
+
+/*Personalizar os botões da pág de cadastro*/
+.btn_pag_cadastrar {
+    text-decoration: none;
+    border: 2px rgb(255, 255, 255) solid;
+    padding: 9px 11px 8px 11px;
+    border-radius: 50px;
+    color: black;
+    background-color: #f9f9f9;
+}
+
+.btn_pag_cadastrar:hover {
+    border-color: #e7bad5;
+}
+
+#mensagem_erro_cadastro {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+
+/*PEDIDO*/
+
+/*Personalizando o formulário*/
+#pedido .container {
+    border: 1px #e7bad5 solid;
+    border-radius: 10px 0 10px 0;
+}
+
+/*Personalizar os botões da pág de cadastro*/
+.btn_pag_pedido {
+    text-decoration: none;
+    border: 2px rgb(255, 255, 255) solid;
+    padding: 9px 11px 8px 11px;
+    border-radius: 50px;
+    color: black;
+    background-color: #f9f9f9;
+}
+
+.btn_pag_pedido:hover {
+    border-color: #e7bad5;
+}
+
+/*POP UP DO PEDIDO*/
+/* Estilo para o pop-up */
+#popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 9999;
+}
+
+/* Estilo para o fundo escuro do pop-up */
+#popup-overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 9998;
+}
+
+/* Estilo para o botão de fechar o pop-up */
+#popup-close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
